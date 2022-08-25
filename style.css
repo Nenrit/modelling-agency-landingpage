@@ -1,0 +1,314 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    margin: 0 auto;
+    height: 650px;
+    width: 100%;
+    background: #ae3304;
+    background-image: url(/Beautmodel.jpg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+main .nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+main .nav .logo{
+    padding: 15px;
+}
+main .nav .icons{
+    display: flex;
+    font-size: 20px;
+    background-color: #f26807;
+    padding: 5px;
+    height: 20px;
+    width: 120px;
+    align-items: center;
+}
+main .nav .icons i{
+    margin: 10px;
+}
+main .info{
+  margin-top: 30px;
+  margin: 70px;
+  padding: 20px;
+}
+main .info h3{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+main .info h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+main .info p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+main .info button{
+    height: 50px;
+    width: 150px;
+    font-weight: bolder;
+}
+/* About Us */
+section{
+    height: 550px;
+    background: linear-gradient(to right,  #ec9706  55%, #fcae1e 45%);
+}
+section .pic img{
+    height: 400px;
+    width: 600px;
+}
+section .pic{
+    margin-left: 650px;
+    margin-top: -290px;
+}
+section .inform_header{
+    padding-top: 70px;
+    margin-left: 50px;
+}
+section .inform{
+    margin-bottom: 10px; 
+    padding-left: 20px;
+
+}
+section .inform_header h2{
+    font-size: 40px;
+    margin-top: 20px;
+} 
+section .inform p{
+    padding: 20px;
+}
+/* Services */
+.services{
+    background: linear-gradient(to right, #fcae1e 60%, #ae3304 40%);
+    height: 600px;
+}
+.services .top{
+    padding-top: 50px;
+
+}
+.service_container{
+    max-width: 800px;
+    margin: 0;
+    padding: 25px;
+}
+.service_container .top h3{
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.service_container .top h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.item_container .item_header h4 {
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-decoration: underline;
+}
+.grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    position: relative;
+}
+.item_container{
+    padding: 30px;
+    width: 200px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    border-top: 2px solid white;
+    margin: 10px;
+}
+.item_container:hover{
+    border: 3px solid #ae3304;
+}
+.service_container .notebook{
+    margin-left: 750px;
+    margin-top: -420px;
+}
+.service_container .notebook img{
+    height: 400px;
+}
+/* our works */
+.our_works{
+    height: 550px;
+    background-color: #fcae1e;
+}
+.our_works .works_header{
+    justify-content: center;
+    text-align: center;
+}
+.our_works .works_header h3{
+    padding-top: 40px;
+    padding: 20px;
+    font-weight: bold;
+}
+.our_works .works_header h2{
+    font-size: 35px;
+    padding: 20px;
+} 
+.our_works .works{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.our_works .works img{
+    height: 300px;
+    margin: 20px;
+}
+/* Staff */
+.staff{
+    height: 500px;
+    background-color: #fcae1e;
+}
+.staff .staff_header{
+    text-align: center;
+}
+.staff .staff_header h3{
+    font-weight: bold;
+    padding-top: 40px;
+    padding: 20px;
+}
+.staff .staff_header h2{
+    font-size: 35px;
+}
+.staff .our_team{
+    display: flex;
+    justify-content: center;
+    
+}
+.staff .our_team .person{
+    background-color: #ae3304;
+    margin: 30px;
+    height: 300px;
+    width: 250px;
+}
+.staff .our_team img{
+    height: 200px;
+    width: 100%;
+
+}
+.staff .our_team .teaminfo{
+    display: flex;
+    padding: 20px;  
+}
+.person .teaminfo .icon{
+    margin-top: 20px;
+    margin-left: 35px;
+    position: relative;
+    display: flex;
+}
+.person .teaminfo .icon i{
+    margin: 5px;
+}
+.person .teaminfo .icons{
+    margin-top: 20px;
+    margin-left: 60px;
+    position: relative;
+    display: flex;
+}
+.person .teaminfo .icons i{
+    margin: 5px;
+}
+
+.our_team .teaminfo .name{
+    margin-top: 10px;
+}
+ .our_team .teaminfo .name p{
+    font-size: 13px;
+ }
+ /* Contact Us */
+ .contact_us{
+    height: 500px;
+    background: linear-gradient(to right,#fcae1e 55%, #ae3304 45% )
+ }
+ .contact_header{
+    padding-top: 30px;
+    margin-left: 50px;
+ }
+ .contact_header h2{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ }
+ .contact_us .user_info{
+    margin-top: 50px;
+ }
+ .contact_us .user_info input{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    height: 20px;
+    width: 300px;
+    border: none;
+ }
+ .contact_us .user_info .name{
+    padding: 10px;
+ }
+ .contact_us .user_info .email{
+    padding: 10px;
+ }
+ .contact_us .user_info .subject{
+    padding: 10px;
+ }
+ .contact_us .user_info .message{
+    padding: 10px;
+ }
+ .contact_us button{
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    background-color: #ae3304;
+ }
+ .contact_us .location_pic {
+    margin-left: 600px;
+    margin-top: -400px;
+ }
+ .contact_us .location_pic img{
+    height: 400px;
+ }
+ .contact_us .contact_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: -350px;
+ }
+ .contact_info .phones{
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ .contact_info .phones .phone_header{
+    display: flex;
+ }
+ .contact_info .phones .phone_header p{
+    margin-left: 10px;
+ }
+ .contact_info .emails{
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ .contact_info .emails .email_header{
+    display: flex;
+ }
+ .contact_info .emails .email_header p{
+    margin-left: 10px;
+ }
+ .contact_info .address{
+    margin-bottom: 20px;
+    line-height: 20px;
+ }
+ .contact_info .address .address_header{
+    display: flex;
+ }
+ .contact_info .address .address_header p{
+    margin-left: 10px;
+ }
+
